@@ -82,6 +82,16 @@ public class Ex12 {
 		} while ( Character.toUpperCase(con) == 'Y' );
 		
 		// 등수처리.
+		for (int i = 0; i < cnt; i++) {
+            students[i].rank = 1; // 초기 등수는 모두 1로 설정
+            for (int j = 0; j < cnt; j++) {
+            	if(i == j) continue;
+                if (students[i].tot < students[j].tot) {
+                	 students[i].rank++; // i번 학생의 평균이 j번 학생의 평균보다 낮으면 등수 증가
+                }
+            }
+        }
+		
 		
 		// 학생정보출력.
 		System.out.printf("> 입력받은 학생수 : %d명\n", cnt);
