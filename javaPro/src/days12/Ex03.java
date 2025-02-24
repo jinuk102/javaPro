@@ -40,7 +40,7 @@ public class Ex03 {
 		int idx1 = 0, idx2;
 		Random rnd = new Random();
 		for (int i = 0, temp; i < 10; i++) { 
-			idx2 = rnd.nextInt(m.length-1)+1; // 1~9			
+			idx2 = rnd.nextInt(m.length-1)+1; // 1~9
 			System.out.printf("%d - %d \n", idx1, idx2);
 			temp = m[idx1];
 			m[idx1] = m[idx2];
