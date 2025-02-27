@@ -12,6 +12,7 @@ import java.io.IOException;
  */
 public class Ex09_03 {
 
+	
 	public static void main(String[] args) {		
 		String fileName = "C:\\E\\Class\\SS23Class\\JavaClass\\javaPro\\src\\days17\\16일차복습_홍길동.txt";
 		int one ;
