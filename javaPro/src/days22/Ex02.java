@@ -43,7 +43,7 @@ public class Ex02 {
 		
 		//    addAll(Collection c)
 		//    removeAll(Collection c)
-		class5.removeAll(team3);
+		class5.removeAll(team1);
 		System.out.println( class5 );
 		
 	} // main

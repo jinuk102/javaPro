@@ -34,7 +34,7 @@ public class Ex05 {
 	    
 	    System.out.println( v.size() );     // 요소 갯수(크기)  3
 	    
-	    v.trimToSize();
+	    v.trimToSize(); // 용량에 맞게 사이즈를 저장해준다.
 	    System.out.println( v.capacity() ); // 용량 3
 	    
 	    v.add("홍길동");

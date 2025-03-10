@@ -37,11 +37,19 @@ public class Ex10_02 {
 		
 		// [문제2] 모든 요소를 출력.
 		// Iterator (반복자) 객체
+//		Iterator ir = list.iterator();
+//		while (ir.hasNext()) {
+//			String name = (String) ir.next();
+//			System.out.println( name );
+//		} // while
 		Iterator ir = list.iterator();
 		while (ir.hasNext()) {
 			String name = (String) ir.next();
-			System.out.println( name );
-		} // while
+			System.out.println(name);
+			
+		}
+		
+		
 		
 	} // main
 

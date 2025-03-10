@@ -56,38 +56,40 @@ public class Ex10 {
 		
 		// [문제]
 		// "김도훈" 요소를 찾아서 있으면 삭제.
-		/* [1]
-		// boolean list.contains("김도훈");
-		if (  list.contains("김도훈") ) {
-			System.out.println( list.remove("김도훈") ); // true/false
-		} // if
-		*/
-		/* [2]
-		index = list.indexOf("김도훈");
-		if (index != -1) {
-			System.out.println( list.remove(index) );  // 김도훈 
-		} // if
-		*/
+		
+//		 boolean list.contains("김도훈");
+//		if (  list.contains("김도훈") ) {
+//			System.out.println( list.remove("김도훈") ); // true/false
+//		} // if
+		
+		
+//		index = list.indexOf("김도훈");
+//		if (index != -1) {
+//			System.out.println( list.remove(index) );  // 김도훈 
+//		} // if
+		
 		
 		// [문제] 모든 김도훈 요소를 삭제.
-		/* [1]
-		while (   (index = list.indexOf("김도훈")) != -1   ) {
-			System.out.println( index );
-			list.remove(index);
-		} // while
-		*/
 		
-		/* [2]
-		while (   list.contains("김도훈")   ) { 
-			list.remove("김도훈");
-		} // while
-		*/
+//		while (   (index = list.indexOf("김도훈")) != -1   ) {
+//			System.out.println( index );
+//			list.remove(index);
+//		} // while
 		
-		/* [3]
-		ArrayList removeList = new ArrayList();
-		removeList.add("김도훈");		
-		list.removeAll(removeList);
-		*/
+		
+		
+		
+//		while (   list.contains("김도훈")   ) { 
+//			list.remove("김도훈");
+//		} // while
+		
+	
+		
+//		
+//		ArrayList removeList = new ArrayList();
+//		removeList.add("김도훈");		
+//		list.removeAll(removeList);
+		
 		/*
 		for (int i = 0; i < 10; i++) ;
 		
@@ -104,14 +106,14 @@ public class Ex10 {
 //		list.removeIf(isNameCheck);
 		
 		// [6] 익명클래스
-		/*
-		list.removeIf(new Predicate<String>() {
-			@Override
-			public boolean test(String t) {
-				return t.equals("김도훈");
-			}
-		});
-		*/
+		
+//		list.removeIf(new Predicate<String>() {
+//			@Override
+//			public boolean test(String t) {
+//				return t.equals("김도훈");
+//			}
+//		});
+		
 		
 		// [7]
 		// list.removeIf( (t) -> t.equals("김도훈") );

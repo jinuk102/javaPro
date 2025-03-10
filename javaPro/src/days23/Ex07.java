@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
@@ -22,7 +23,7 @@ public class Ex07 {
 	
 		// ArrayList<ArrayList<String>> class5 = new ArrayList<>();
 		// 순서 유지 X
-		HashMap<String, ArrayList<String>> class5 = new HashMap<>();
+		Map<String, ArrayList<String>> class5 = new HashMap<>();
 		
 		String [] lineArr = null;
 		ArrayList<String> team = null;
@@ -54,7 +55,7 @@ public class Ex07 {
 	} // main
 
 	// 반복자 사용해서 출력.
-	private static void dispClass(HashMap<String, ArrayList<String>> class5) {
+	private static void dispClass(Map<String, ArrayList<String>> class5) {
 		
 		Set<Entry<String, ArrayList<String>>> es = class5.entrySet();
 		Iterator<Entry<String, ArrayList<String>>> ir = es.iterator();
